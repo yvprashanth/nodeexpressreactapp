@@ -57,7 +57,7 @@ updateShelf(book, event) {
             <div className="search-books-bar">
             <Link to="/" onClick={() => this.setState({ showSearchPage: false })} className="close-search">Close</Link>
               <div className="search-books-input-wrapper">
-              <SearchPage updateShelf={this.updateShelf} mainbooks={this.state.books}/>
+                <SearchPage updateShelf={this.updateShelf} mainbooks={this.state.books}/>
               </div>
             </div>
             <div className="search-books-results">
